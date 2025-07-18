@@ -1,73 +1,71 @@
-# Welcome to your Lovable project
+# Paris Connect Hub
 
-## Project info
+بوابة مركز باريس – الوادي الجديد
 
-**URL**: https://lovable.dev/projects/fada439e-eb24-41d8-8ecd-4ccdb9b97f0e
+موقع خدمي عصري يهدف إلى تسهيل الخدمات الحكومية للمواطنين والموظفين في مركز باريس، مع تجربة استخدام حديثة وسريعة تدعم الموبايل.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 المميزات الرئيسية
+- **خدمات إلكترونية:** تقديم شكاوى، استخراج شهادات، متابعة المعاملات، حجز مواعيد.
+- **لوحة تحكم للموظفين والإدارة:** إدارة الشكاوى، الموظفين، والإعلانات.
+- **أخبار وإعلانات رسمية:** نشر آخر أخبار المركز والمناقصات.
+- **دليل مستخدم وقسم مساعدة:** شرح استخدام الموقع خطوة بخطوة.
+- **تواصل مباشر:** نموذج تواصل يصل للإدارة عبر البريد.
+- **تصميم متجاوب:** واجهة عصرية تدعم جميع الأجهزة.
+- **أنيميشن سلس:** تجربة مستخدم جذابة مع framer-motion.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fada439e-eb24-41d8-8ecd-4ccdb9b97f0e) and start prompting.
+## 🛠️ التقنيات المستخدمة
+- **React + Vite**
+- **TypeScript**
+- **TailwindCSS**
+- **framer-motion** (أنيميشن)
+- **Supabase** (قاعدة بيانات/مصادقة)
+- **EmailJS** (إرسال رسائل البريد)
+- **Vercel** (نشر سريع)
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## ⚡️ طريقة التشغيل محليًا
+```bash
+npm install
 npm run dev
 ```
+ثم افتح: [http://localhost:5173](http://localhost:5173)
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🌍 النشر على الإنترنت
+- اربط الريبو بـ [Vercel](https://vercel.com) واضغط Deploy فقط!
+- يدعم التحديث التلقائي مع كل push.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📂 هيكل المشروع (مختصر)
+```
+src/
+  pages/         # الصفحات الرئيسية (الرئيسية، الخدمات، الأخبار...)
+  components/    # مكونات الواجهة (UI)
+  hooks/         # هوكس مخصصة
+  integrations/  # ربط مع Supabase وEmailJS
+  lib/           # دوال مساعدة
+public/          # ملفات ثابتة (صور، favicon...)
+```
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🤝 المساهمة
+- أي اقتراح أو مشكلة: افتح Issue أو Pull Request.
+- للمساهمة في تطوير الخدمات أو إضافة ميزات جديدة، تواصل معنا.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📞 التواصل
+- البريد: info@paris-center.gov.eg
+- الموقع الرسمي: [newvalley.gov.eg](http://newvalley.gov.eg/Governorate-entities/Pages/GovernorateDetails.aspx?entitieCode=32)
 
-Simply open [Lovable](https://lovable.dev/projects/fada439e-eb24-41d8-8ecd-4ccdb9b97f0e) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+> جميع الحقوق محفوظة © مركز باريس – الوادي الجديد 2024
